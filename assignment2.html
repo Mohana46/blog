@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        
+
+html {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(http://www.example.com/somelargeimage.jpg);
+    background-position: top center;
+   
+  }
+
+header{
+  width:   1050px;
+  height: 1380px;
+  background-color: rgb(188, 36, 202);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-content ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    float: right;
+    
+}
+#header-content ul li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 70px;
+}
+
+#header-content ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 7px;
+
+}  
+input[type=button]{
+    border-radius: 20px;
+    padding:5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+    
+}
+#MK{
+    color: aliceblue;
+    position:relative; 
+    left:80px; 
+    top:27px;
+    
+}
+ 
+img{
+    height: 200px;
+    margin-left: 70px;
+    margin-top:95px;
+    position: relative;
+    width: 300px;
+    
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-img {
+    position: relative;
+    text-align:left;
+    color: white;
+} 
+.center{
+    position: absolute;
+  top: 50%;
+  left: 10%; transform: translate(-70%, -10%);
+ 
+  padding-left:10px;
+
+}
+.center p{
+    font-size: 50px;
+   
+}
+
+    
+
+ 
+.search-bar{
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:10px 20px;
+
+}
+
+.search-bar input[type=text]{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding:10px 20px;
+    color: white;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+}
+.txt-container1{
+       background-color: rgb(149, 12, 161);
+       width:900px;
+        padding: 30px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: aliceblue;
+       position: relative;
+       top: 30px;
+       left: 40px;
+}
+
+.img3 img{
+    height: 353px;
+    width: 360px;
+}
+.txt-container2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.txt-container2  .txt-1{
+    position: relative;
+    top:120px
+}
+.txt-container2  .txt-1 h1{
+    font-size: 40px;
+    color: white;
+}
+.txt-container2  .txt-1 p{
+    color: rgb(56,56,56);
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+div.square {
+    
+    float: right;
+    padding: 100px 100px 10px 0px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: #F5B041;
+
+}
+.square h1{
+    position: relative;
+    bottom: 80%;
+}
+div.sq{
+    font-size: large;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #F5B041;
+}
+p#a {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+p#b {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 30px;
+}
+
+section{
+    width:   1050px;
+    height: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+}
+.text p{
+    color: rgb(120,120,120);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2 .text {
+    padding-left: 60px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container4 button{
+    height: 70px;
+    width: 70px;
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    column-gap: 2em;
+}
+.container5 p{
+    color: rgb(120,120,120);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container5 h3{
+    
+    font-family: Verdana,'Segoe UI', Tahoma, Geneva,  sans-serif;
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    column-gap: 300px;
+    margin-bottom: 40px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color:rgb(240, 240, 240);
+    font-family:'Cambria', 'Cochin', 'Georgia', 'Times', Times New Roman, 'serif's;
+    width:   1050px;
+    position: relative;
+    left: 140px;
+  }
+.footer-content ul li
+   {
+      list-style-type:none ;
+      text-decoration: none;
+      padding: 5px 5px;
+        color: grey;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="header-content">
+            <ul>
+                <li><a href="#"><b>Service</b></a></li>
+                <li><a href="#"><b>About Us</b></a></li>
+                <li><a href="#"><b>Contact</b></a></li>
+                <li><input type="button" value="Sign up"></li>
+
+            </ul>
+        </nav>
+        <h3 id="MK">Mi-Kishan</h3>
+        <div class="img-container">
+            <div class="img1">
+                <img src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="building1">
+            </div>
+            <div class="txt-img">
+                <div class="img2">
+                    <img src="https://nextconf.eu/wp-content/uploads/2021/01/FutureIsNow-1280x0-c-default.webp"
+                        alt="building2" style="height: 500px;width:550px">
+                </div>
+                <div class="center">
+                    <p><b>A Creative <br>Company that's more</b></p>
+                    <div class="search-bar">
+                        <input type="text" name="search" placeholder="Search here">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="txt-container1">
+            <h3 style="margin-left:150px ;">
+                A agency refer to a relationship comprise of two parties,where<br> one party ,called the agent
+                ,represents the other party,called the<br>
+                principal <br><br><br>
+                by Founder<br>
+                <h4 style="color:orange;margin-left:150px ;">Majanul islam</h4>
+            </h3>
+        </div>
+        <div class="txt-container2">
+            <div class="img3">
+                <img src="https://wallpapercrafter.com/th800/6438-building-facade-corner-windows-architecture-4k.jpg">
+            </div>
+            <div class="txt-1">
+                <h1>Correct decision is <br> main purpose of <br> this agency</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Dolorem culpa voluptas odit ab quam,
+                    minima excepturi <br>perferendis omnis officiis veniam.
+                </p>
+            </div>
+
+
+        </div>
+
+    </header>
+
+
+    <section>
+        <div style="background-color: white; margin-top: 80px; margin-right: 0px; margin-bottom: 50px;">
+            <div>
+                <div class="square" style="margin-right: 50px;margin-top: -120px">
+                    <h1 style="font-size: 25px; text-align: left; padding-left: 50px;padding-top:-10px;">03
+                        <br>Project
+                    </h1>
+                </div>
+                <br>
+                <div class="square" style="margin-top: -135px;">
+                    <h1 style="font-size: 25px; text-align: left; padding-left: 25px;">02
+                        <br>Expriment
+                    </h1>
+                </div>
+                <br>
+                <div class="square" style="position:relative; margin-left: 200px; margin-top: -152px;">
+                    <h1 style="font-size: 25px; text-align: left; padding-left: 30px; ">01
+                        <br>Planning
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="container1">
+                <div class="text1">
+                    <p style="font-size: 40px;margin-left:80px;"> <b>
+                            Here goes a titel about the <br>
+                            cases datdash has on <br>
+                            here</b>
+                    </p>
+                </div>
+                <h3 style="margin-left:80px;">checkout of our cases <i class="fa-solid fa-arrow-right"
+                        style="position: relative;top:2px;"></i></h3>
+                <div id="pic1" style="margin-left: 40px;">
+                    <img src="https://images.pexels.com/photos/2041393/pexels-photo-2041393.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        style="height:250px;width:400px; margin-left:40px">
+                </div>
+                <div class="text" style="margin-left: 80px;">
+                    <h2>checkout of our cases</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur <br>
+                        elitAccusamus obcaecati alias iste
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="container2">
+                <div id="pic2">
+
+                    <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        style="height:300px;width:300px">
+                </div>
+                <div class="text">
+                    <h2>checkout of our cases</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur <br> elitAccusamus obcaecati alias iste </p>
+
+                </div>
+                <div id="pic3">
+                    <img src=" https://img.freepik.com/free-photo/businesspeople-meeting-office-working_23-2148908913.jpg?w=740&t=st=1674395135~exp=1674395735~hmac=8d33401c27dce8bf494197c1191ac2cda97ef42ac363801086e46a8610358d95"
+                        style="height:300px;width:300px;margin-top:50px">
+                </div>
+                <div class="text">
+                    <h2>checkout of our cases</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur <br>elitAccusamus obcaecati alias iste </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div style="margin-left:50px ; font-size:40px;">
+            <p>All you need to do is follow <br> our steps
+            </p>
+        </div>
+        <div style="background-color: white;">
+            <div class="sq" style="margin-left:50px;">
+                <p>01</p>
+            </div>
+            <div class="sq" style="margin-left: 300px;">
+                <p>02</p>
+            </div>
+            <div class="sq" style="margin-left: 280px;">
+                <p>03</p>
+            </div>
+            <p id="a">-------------------------------------------------------</p>
+            <p id="b">-----------------------------------------------</p>
+            <br><br><br><br>
+        </div>
+        <div class="container5">
+            <div class="f1-5">
+                <h3>Check out of our cases</h3>
+                <p style="color:rgb(180,180,180);">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores alias tempora explicabo adipisci
+                    recusandae delectus quos accusamus at.</p>
+            </div>
+            <div class="f2-5">
+                <h3>Check out of our cases</h3>
+                <p style="color:rgb(180,180,180);">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores alias tempora explicabo adipisci
+                    recusandae delectus quos accusamus at.</p>
+
+
+            </div>
+            <div class="f3-5">
+                <h3>Check out of our cases</h3>
+                <p style="color:rgb(180,180,180);">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores alias tempora explicabo adipisci
+                    recusandae delectus quos accusamus at.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="container6">
+            <div class="f1-6">
+                <h1 style="font-size: 50px;">Concept</h1>
+            </div>
+            <div class="f2-6">
+                <p style="font-size:20px;margin-top:50px; ">
+                    Lorem ipsum dolor sit consectetur adipisicing elit.<br>
+                    maiores alias tempora explicabo adipisci<br>
+                    recusandae delectus quos accusamus at.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <nav class="footer-content">
+            <ul>
+                <li>
+                    <h3 style="color: black;"><b>Product</b></h3>
+                </li>
+                <li>Icon Design</li>
+                <li>Logo Design</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </nav>
+        <nav class="footer-content">
+            <ul>
+                <li>
+                    <h3 style="color: black;"><b>Resource</b></h3>
+                </li>
+                <li>Blog</li>
+                <li>Support</li>
+                <li>Newsletter</li>
+            </ul>
+        </nav>
+        <nav class="footer-content">
+            <ul>
+                <li>
+                    <h3 style="color: black;"><b>Community</b></h3>
+                </li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Stack</li>
+                <li>Dribble</li>
+            </ul>
+        </nav>
+        <nav class="footer-content">
+            <ul>
+                <li>
+                    <h3 style="color: black;"><b>Support</b></h3>
+                </li>
+                <li>My Account</li>
+                <li>Help & Support</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <nav class="footer-content">
+            <ul>
+                <li>
+                    <h3 style="color: black;"><b>Company</b></h3>
+                </li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Code of Conduct</li>
+            </ul>
+        </nav>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
