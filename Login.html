@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: linear-gradient(#68bed1 50%, #ffb3c1);
+            padding: 16px;
+            margin-top: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: fit-content;
+            margin-left: 25%;
+            height: 450px;
+            border-radius: 30px;
+        }
+
+        input[type=text],
+        input[type=password] {
+            border: none;
+            background-color: white;
+            color: black;
+            margin: 8px 0px;
+            width: 100%;
+            padding: 15px;
+
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: white;
+            outline: none;
+        }
+
+        .checkbox {
+            position: relative;
+            top: 2px;
+        }
+
+        .rm {
+            position: relative;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .lg {
+            background: linear-gradient(#fff, #ffb3c1 100%);
+            border: none;
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-size: 30px;
+            margin-top: 20px;
+
+        }
+
+        .lg:hover {
+            transform: translateY(-4px);
+
+        }
+
+
+        span.psw {
+            float: right;
+            position: relative;
+            top: 30px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <h1>LOGIN</h1>
+            <hr>
+            <label> User Name</label>
+            <input type="text" placeholder="Enter Username" name="uname" class="un" required>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" name="password" class="psw" required>
+            <hr>
+            <button type="submit" class="lg">Login</button>
+
+            <label class="rm"><input type="checkbox" name="check" class="checkbox">Remember me</label>
+            <span class="psw"> <a href="#"> Forgot password?</a></span>
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>
