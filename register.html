@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Register Form</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    .container {
+      background: linear-gradient(#68bed1 30%, #ffb3c1 90%);
+      padding: 16px;
+      margin-top: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 550px;
+      margin-left: 25%;
+      height: 700px;
+
+      border-radius: 30px;
+    }
+
+    hr {
+
+      border: 1px solid rgb(210 210 210);
+      margin-bottom: 25px;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=cpassword] {
+      border: none;
+      background-color: white;
+      color: black;
+      margin: 8px 0px;
+      width: 100%;
+      padding: 15px;
+
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+      background-color: white;
+      outline: none;
+    }
+
+    .rbtn {
+      width: 100%;
+      border: none;
+      background: linear-gradient(#fff 20%, #ffb3c1 100%);
+      padding: 15px;
+      cursor: pointer;
+      font-size: 30px;
+    }
+
+    .rbtn:hover {
+      transform: translatey(-3px);
+    }
+
+    .ac {
+      position: relative;
+      top: 20px;
+      left: 80px;
+      font-size: 20px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <h1><b>Register</b></h1>
+      <p>Register here to create an account</p>
+      <hr>
+      <label for="emailid">Email Id</label><br>
+      <input type="text" placeholder=" Enter Email Id" name="email" class="eid" required><br>
+      <label for="username">User Name</label><br>
+      <input type="text" placeholder="Enter username">
+      <label for="password">Password</label><br>
+      <input type="password" placeholder=" Enter password" name="password" class="psw" required><br>
+      <label for="text">Confirm password</label><br>
+      <input type="password" placeholder=" Enter  Confirm password" name="cpassword" class="cp" required>
+      <hr>
+      <button type="submit" class="rbtn">Register</button>
+
+      <p class="ac">Already have an account ?<a href="#"><span>sign in</span></a></p>
+    </div>
+  </form>
+</body>
+
+</html>
